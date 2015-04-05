@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3ACE30251AD0C93C00C64872 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACE30241AD0C93C00C64872 /* AppDelegate.swift */; };
+		3ACE30271AD0C93C00C64872 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACE30261AD0C93C00C64872 /* ViewController.swift */; };
+		3ACE302A1AD0C93C00C64872 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ACE30281AD0C93C00C64872 /* Main.storyboard */; };
+		3ACE302C1AD0C93C00C64872 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ACE302B1AD0C93C00C64872 /* Images.xcassets */; };
+		3ACE302F1AD0C93C00C64872 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3ACE302D1AD0C93C00C64872 /* LaunchScreen.xib */; };
+		3ACE303B1AD0C93C00C64872 /* Bola_de_CristalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACE303A1AD0C93C00C64872 /* Bola_de_CristalTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3ACE30351AD0C93C00C64872 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3ACE30171AD0C93C00C64872 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3ACE301E1AD0C93C00C64872;
+			remoteInfo = "Bola de Cristal";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3ACE301F1AD0C93C00C64872 /* Bola de Cristal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bola de Cristal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ACE30231AD0C93C00C64872 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ACE30241AD0C93C00C64872 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3ACE30261AD0C93C00C64872 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3ACE30291AD0C93C00C64872 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3ACE302B1AD0C93C00C64872 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3ACE302E1AD0C93C00C64872 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3ACE30341AD0C93C00C64872 /* Bola de CristalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bola de CristalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ACE30391AD0C93C00C64872 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ACE303A1AD0C93C00C64872 /* Bola_de_CristalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bola_de_CristalTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3ACE301C1AD0C93C00C64872 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ACE30311AD0C93C00C64872 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3ACE30161AD0C93C00C64872 = {
+			isa = PBXGroup;
+			children = (
+				3ACE30211AD0C93C00C64872 /* Bola de Cristal */,
+				3ACE30371AD0C93C00C64872 /* Bola de CristalTests */,
+				3ACE30201AD0C93C00C64872 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3ACE30201AD0C93C00C64872 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3ACE301F1AD0C93C00C64872 /* Bola de Cristal.app */,
+				3ACE30341AD0C93C00C64872 /* Bola de CristalTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3ACE30211AD0C93C00C64872 /* Bola de Cristal */ = {
+			isa = PBXGroup;
+			children = (
+				3ACE30241AD0C93C00C64872 /* AppDelegate.swift */,
+				3ACE30261AD0C93C00C64872 /* ViewController.swift */,
+				3ACE30281AD0C93C00C64872 /* Main.storyboard */,
+				3ACE302B1AD0C93C00C64872 /* Images.xcassets */,
+				3ACE302D1AD0C93C00C64872 /* LaunchScreen.xib */,
+				3ACE30221AD0C93C00C64872 /* Supporting Files */,
+			);
+			path = "Bola de Cristal";
+			sourceTree = "<group>";
+		};
+		3ACE30221AD0C93C00C64872 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3ACE30231AD0C93C00C64872 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3ACE30371AD0C93C00C64872 /* Bola de CristalTests */ = {
+			isa = PBXGroup;
+			children = (
+				3ACE303A1AD0C93C00C64872 /* Bola_de_CristalTests.swift */,
+				3ACE30381AD0C93C00C64872 /* Supporting Files */,
+			);
+			path = "Bola de CristalTests";
+			sourceTree = "<group>";
+		};
+		3ACE30381AD0C93C00C64872 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3ACE30391AD0C93C00C64872 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3ACE301E1AD0C93C00C64872 /* Bola de Cristal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ACE303E1AD0C93C00C64872 /* Build configuration list for PBXNativeTarget "Bola de Cristal" */;
+			buildPhases = (
+				3ACE301B1AD0C93C00C64872 /* Sources */,
+				3ACE301C1AD0C93C00C64872 /* Frameworks */,
+				3ACE301D1AD0C93C00C64872 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bola de Cristal";
+			productName = "Bola de Cristal";
+			productReference = 3ACE301F1AD0C93C00C64872 /* Bola de Cristal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3ACE30331AD0C93C00C64872 /* Bola de CristalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ACE30411AD0C93C00C64872 /* Build configuration list for PBXNativeTarget "Bola de CristalTests" */;
+			buildPhases = (
+				3ACE30301AD0C93C00C64872 /* Sources */,
+				3ACE30311AD0C93C00C64872 /* Frameworks */,
+				3ACE30321AD0C93C00C64872 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3ACE30361AD0C93C00C64872 /* PBXTargetDependency */,
+			);
+			name = "Bola de CristalTests";
+			productName = "Bola de CristalTests";
+			productReference = 3ACE30341AD0C93C00C64872 /* Bola de CristalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3ACE30171AD0C93C00C64872 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = PZaN;
+				TargetAttributes = {
+					3ACE301E1AD0C93C00C64872 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					3ACE30331AD0C93C00C64872 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 3ACE301E1AD0C93C00C64872;
+					};
+				};
+			};
+			buildConfigurationList = 3ACE301A1AD0C93C00C64872 /* Build configuration list for PBXProject "Bola de Cristal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3ACE30161AD0C93C00C64872;
+			productRefGroup = 3ACE30201AD0C93C00C64872 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3ACE301E1AD0C93C00C64872 /* Bola de Cristal */,
+				3ACE30331AD0C93C00C64872 /* Bola de CristalTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3ACE301D1AD0C93C00C64872 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ACE302A1AD0C93C00C64872 /* Main.storyboard in Resources */,
+				3ACE302F1AD0C93C00C64872 /* LaunchScreen.xib in Resources */,
+				3ACE302C1AD0C93C00C64872 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ACE30321AD0C93C00C64872 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3ACE301B1AD0C93C00C64872 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ACE30271AD0C93C00C64872 /* ViewController.swift in Sources */,
+				3ACE30251AD0C93C00C64872 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ACE30301AD0C93C00C64872 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ACE303B1AD0C93C00C64872 /* Bola_de_CristalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3ACE30361AD0C93C00C64872 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3ACE301E1AD0C93C00C64872 /* Bola de Cristal */;
+			targetProxy = 3ACE30351AD0C93C00C64872 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3ACE30281AD0C93C00C64872 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3ACE30291AD0C93C00C64872 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3ACE302D1AD0C93C00C64872 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3ACE302E1AD0C93C00C64872 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3ACE303C1AD0C93C00C64872 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3ACE303D1AD0C93C00C64872 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3ACE303F1AD0C93C00C64872 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Bola de Cristal/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3ACE30401AD0C93C00C64872 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Bola de Cristal/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3ACE30421AD0C93C00C64872 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Bola de CristalTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bola de Cristal.app/Bola de Cristal";
+			};
+			name = Debug;
+		};
+		3ACE30431AD0C93C00C64872 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Bola de CristalTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bola de Cristal.app/Bola de Cristal";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3ACE301A1AD0C93C00C64872 /* Build configuration list for PBXProject "Bola de Cristal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ACE303C1AD0C93C00C64872 /* Debug */,
+				3ACE303D1AD0C93C00C64872 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3ACE303E1AD0C93C00C64872 /* Build configuration list for PBXNativeTarget "Bola de Cristal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ACE303F1AD0C93C00C64872 /* Debug */,
+				3ACE30401AD0C93C00C64872 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3ACE30411AD0C93C00C64872 /* Build configuration list for PBXNativeTarget "Bola de CristalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ACE30421AD0C93C00C64872 /* Debug */,
+				3ACE30431AD0C93C00C64872 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3ACE30171AD0C93C00C64872 /* Project object */;
+}
